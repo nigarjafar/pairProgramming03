@@ -1,3 +1,59 @@
+.border, #header #top .row div div, #header #top .row div:last-child div {
+  border-left: 0.5px solid #e2e2e2;
+  border-right: 0.5px solid #e2e2e2; }
+
+#header {
+  font-family: 'Open Sans', sans-serif; }
+  #header #top {
+    height: auto;
+    background-color: #FBFBFB;
+    border-bottom: 0.5px solid #e2e2e2; }
+    #header #top .row div div {
+      line-height: 40px;
+      color: #959595; }
+      #header #top .row div div span {
+        font-size: 1em; }
+    #header #top .row div:last-child {
+      border: none; }
+      #header #top .row div:last-child div {
+        transition: all 0.3s ease; }
+        #header #top .row div:last-child div:hover {
+          border: none; }
+        #header #top .row div:last-child div:first-child:hover {
+          background-color: #007bb6;
+          color: white; }
+        #header #top .row div:last-child div:nth-child(2):hover {
+          background-color: #cb2027;
+          color: white; }
+        #header #top .row div:last-child div:nth-child(3):hover {
+          background-color: #D84A38;
+          color: white; }
+        #header #top .row div:last-child div:nth-child(4):hover {
+          background-color: #00aced;
+          color: white; }
+        #header #top .row div:last-child div:last-child:hover {
+          background-color: #3b5998;
+          color: white; }
+  #header .navbar {
+    height: 100px; }
+    #header .navbar .navbar-brand img {
+      width: 50%;
+      padding: 10px 0; }
+    #header .navbar .navbar-nav {
+      padding: 20px 0; }
+      #header .navbar .navbar-nav .active {
+        border-radius: 20px;
+        background-color: #31A3DD;
+        color: white; }
+      #header .navbar .navbar-nav li a {
+        color: black;
+        margin: 10px 5px;
+        padding: 10px 20px; }
+        #header .navbar .navbar-nav li a:hover {
+          border-radius: 20px;
+          background-color: #31A3DD;
+          color: white; }
+
 #slide .item {
   background-color: #fff; }
 
