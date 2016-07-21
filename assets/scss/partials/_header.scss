@@ -1,5 +1,4 @@
 @import 'variables';
-
 .border{
 	border-left:0.5px solid darken($fourth-color, 10%);
 	border-right:0.5px solid darken($fourth-color, 10%);
@@ -17,13 +16,14 @@
 		 		line-height:40px;
 		 		@extend .border;
 		 		color: darken($fourth-color, 40%);
-			 	
-			 	span{
-			 		font-size:1em;
-			 	} 
-			 }
+			 		
+				 	span{
+				 		font-size:1em;
+				 	} 
+				}
+			}
 
-			 	&:last-child{
+			 .scmedia{
 			 		border:none;
 			 		div{
 			 			@extend .border;
@@ -57,7 +57,7 @@
 						
 
 			 		}
-			 	}
+			 	
 		 	}
 		 	
 	    }
@@ -65,12 +65,35 @@
 	
 	.navbar{
 		height:100px;
-		.navbar-brand{
-			img{
-				width:50%;
-				padding:10px 0;
+		
+			button{
+					
+					background-color:$main-color;
+					height:35px;
+					width:70px;
+					margin:25px 0;
+					span{
+						width:12px;
+						margin:2px auto 2px auto;
+						background-color:white;
+					}
 			}
-		}
+			.navbar-brand{
+					padding-right:0;
+					margin-right:0;
+					width:130px;
+				img{
+					width:100%;
+					padding:10px 0;
+
+					
+
+
+				}
+			}
+
+		
+	
 		.navbar-nav{
 			padding:20px 0;
 			
@@ -85,11 +108,11 @@
 				margin:10px 5px;
 				padding:10px 20px;
 				
-				&:hover{
-					border-radius: 20px;
-					background-color: $main-color;
-					color:white;
-				}
+					&:hover{
+						border-radius: 20px;
+						background-color: $main-color;
+						color:white;
+					}
 
 				}
 			}
