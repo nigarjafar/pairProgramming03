@@ -7,6 +7,9 @@
 		<!-- Bootstrap -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
 	</head>
 	<body>
 		<header id="header">
@@ -16,7 +19,25 @@
 			</nav>
 		</header>
 		<section id="slide">
-			
+			<div id="slide-carousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<img data-src="..." alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img data-src="..." alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img data-src="..." alt="Third slide">
+					</div>
+				</div>
+				<a class="left carousel-control" href="#slide-carousel" role="button" data-slide="prev">
+					<span class="icon-prev" aria-hidden="true"></span>
+				</a>
+				<a class="right carousel-control" href="#slide-carousel" role="button" data-slide="next">
+					<span class="icon-next" aria-hidden="true"></span>
+				</a>
+			</div>
 		</section>
 		<section id="services">
 			
@@ -31,7 +52,7 @@
 			
 		</section>
 		<section id="news">
-		
+
 		</section>
 		<section id="partners">
 			
