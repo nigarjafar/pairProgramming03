@@ -1,4 +1,4 @@
-.border, #header #top .row div div, #header #top .row div:last-child div {
+.border, #header #top .row div div, #header #top .row .scmedia div {
   border-left: 0.5px solid #e2e2e2;
   border-right: 0.5px solid #e2e2e2; }
 
@@ -13,32 +13,45 @@
       color: #959595; }
       #header #top .row div div span {
         font-size: 1em; }
-    #header #top .row div:last-child {
+    #header #top .row .scmedia {
       border: none; }
-      #header #top .row div:last-child div {
+      #header #top .row .scmedia div {
         transition: all 0.3s ease; }
-        #header #top .row div:last-child div:hover {
+        #header #top .row .scmedia div:hover {
           border: none; }
-        #header #top .row div:last-child div:first-child:hover {
+        #header #top .row .scmedia div:first-child:hover {
           background-color: #007bb6;
           color: white; }
-        #header #top .row div:last-child div:nth-child(2):hover {
+        #header #top .row .scmedia div:nth-child(2):hover {
           background-color: #cb2027;
           color: white; }
-        #header #top .row div:last-child div:nth-child(3):hover {
+        #header #top .row .scmedia div:nth-child(3):hover {
           background-color: #D84A38;
           color: white; }
-        #header #top .row div:last-child div:nth-child(4):hover {
+        #header #top .row .scmedia div:nth-child(4):hover {
           background-color: #00aced;
           color: white; }
-        #header #top .row div:last-child div:last-child:hover {
+        #header #top .row .scmedia div:last-child:hover {
           background-color: #3b5998;
           color: white; }
   #header .navbar {
     height: 100px; }
-    #header .navbar .navbar-brand img {
-      width: 50%;
-      padding: 10px 0; }
+    #header .navbar button {
+      background-color: #31A3DD;
+      height: 35px;
+      width: 70px;
+      margin: 25px 0; }
+      #header .navbar button span {
+        width: 12px;
+        margin: 2px auto 2px auto;
+        background-color: white; }
+    #header .navbar .navbar-brand {
+      padding-right: 0;
+      margin-right: 0;
+      width: 130px; }
+      #header .navbar .navbar-brand img {
+        width: 100%;
+        padding: 10px 0; }
     #header .navbar .navbar-nav {
       padding: 20px 0; }
       #header .navbar .navbar-nav .active {
@@ -120,6 +133,41 @@
     font-family: 'Open Sans', sans-serif; }
   #divider .name {
     font-weight: 800; }
+
+#partners h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800; }
+#partners span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #999; }
+#partners ul {
+  margin-top: 40px; }
+  #partners ul:first-child {
+    margin-left: 50px; }
+#partners li {
+  width: 242px;
+  float: left;
+  padding: 30px 25px;
+  margin-right: 20px;
+  background-color: #FBFBFB; }
+#partners i {
+  font-size: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 20px 0;
+  padding-top: 3px;
+  text-align: center;
+  border: 2px solid #F1F1F1;
+  color: #ccc;
+  border-radius: 50%; }
+  #partners i:hover {
+    border-color: #000;
+    color: #000; }
 
 #footer {
   font-family: 'Open Sans', sans-serif;
