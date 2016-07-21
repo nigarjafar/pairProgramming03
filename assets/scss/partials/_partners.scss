@@ -1,0 +1,43 @@
+#partners {
+	h3 {
+		font-size: 18px;
+    	line-height: 24px;
+    	font-family: 'Lato', sans-serif;
+    	font-weight: 800;
+	}
+	span {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		line-height: 23px;
+		color: $text-color-gray;
+	}
+	ul {
+		margin-top: 40px 0;
+		&:first-child {
+			margin-left: 50px;
+		}
+	}
+	li {
+		width: $partners-item-width;
+		float: left;
+		padding: 30px 25px;
+		margin-right: 20px;
+		background-color: $fourth-color;
+	}
+	i {
+		font-size: 20px;
+		display: inline-block;
+		width: 30px;
+	    height: 30px;
+	   	margin: 20px 0;
+	    padding-top: 3px;
+	    text-align: center;
+	    border: 2px solid $arrows-border-color;
+	    color: $gray;
+	    border-radius: 50%;
+	    &:hover {
+			border-color: $black;
+			color: $black;
+	    }
+	}
+}
