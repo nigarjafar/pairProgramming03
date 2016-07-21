@@ -1,0 +1,43 @@
+#features {
+	background-color: $features-bgcolor;
+	padding: 60px 0px 57px;
+	.row {
+		color: $white;
+		h3 {
+			font-family: 'Lato', sans-serif;
+			font-size: 27px;
+			line-height: 36px;
+			font-weight: 800;
+		}
+		h4 {
+			font-family: 'Lato', sans-serif;
+			font-size: 14px;
+			line-height: 23px;
+		}
+		.icon-style {
+			width: 29px;
+		    height: 29px;
+		    text-align: center;
+		    padding-top: 8px;
+		    border-radius: 50%;
+		    border: 1px solid $main-color;
+		    color: $main-color;
+		    background: transparent;
+		    margin-right: 10px;
+		    margin-left: 5px;
+		}
+		li {
+			margin-bottom: 20px;
+		}
+		.element {
+			margin: 10px 0 -75px;
+		}
+		span {
+			color: $white;
+			font-family: 'Lato', sans-serif;
+			font-size: 14px;
+			line-height: 20px;
+			font-weight: 800;
+		}
+	}
+}
