@@ -1,0 +1,39 @@
+#services {
+	.col-md-4 {
+		margin:40px 0px;
+		&:hover i{
+			color:$main-color;
+			top:20px;
+			}
+		&:hover .content{
+			border-color:$main-color;
+			}
+		}
+	i {
+		font-size: 39px;
+		color: $fifth-color;
+		position:relative;
+		top:30px;
+		background-color: white;
+		padding:20px;
+		padding-bottom: 0px;
+		transition-timing-function: ease-in-out;
+		transition-duration: 0.3s;
+	}
+	.content{
+		padding:15px;
+		margin-top:10px;
+		padding-top:0;
+		border:2px solid $fifth-color;
+		
+	}
+	h3 {
+		margin-top: 30px;
+		font-family:'Lato';
+		font-weight: bold;
+	}
+	p{
+		font-family:'Open Sans';
+		color:$text-color;
+	}
+}

@@ -1,0 +1,77 @@
+#plans {
+	font-family: 'Open Sans';
+	padding: 40px 0px;
+	h3, .plan h3 {
+		font-weight: bold;
+		letter-spacing: 1px;
+		font-size: 27px;
+		font-family: 'Lato';
+	}
+	p {
+		color: $text-color;
+	}
+	.plan {
+		box-sizing: border-box;
+		border: 3px solid $fifth-color;
+		margin: 20px 10px;
+		
+		.plan-name,
+		.plan-price,
+		.plan-description {
+			padding: 10px 20px;
+		}
+		.plan-name,
+		.plan-price {
+			border-bottom: 2px solid $fifth-color;
+			font-weight: bold;
+		}
+		.plan-price {
+			span {
+				display: block;
+				
+				&:first-child {
+					font-size:49px;
+					font-weight: bold;
+					i {
+						font-size: 15px;
+						font-weight: bold;
+						vertical-align: text-top;
+					}
+					
+				}
+				&:nth-child(2) {
+					font-style: italic;
+					margin-top:-15px;
+				}
+			}
+		}
+		.plan-description {
+			li {
+				color: $text-color;
+				line-height: 40px;
+			}
+		}
+		.plan-submit {
+			text-transform: uppercase;
+			background-color: #FBFBFB;
+			padding: 15px;
+			font-weight: bold;
+			
+			a {
+				text-decoration: none;
+				color: $text-color;
+				&:hover{
+					color:$main-color;
+				}
+			}
+		}
+		h3 {
+			font-size: 18px;
+		}
+		
+		&:hover{
+			position:relative;
+			top:-15px;
+		}
+	}
+}

@@ -1,0 +1,118 @@
+#news {
+	h3 {
+			font-weight: bold;
+			font-family: 'Lato';
+		}
+	p{
+		color:$text-color;
+		margin-top:-10px;
+		margin-bottom:20px;
+	}
+	.about {
+		
+		.panel-heading {
+			background-color: transparent;
+			border: 1px solid $fifth-color;
+			font-family: 'Lato';
+			a {
+				font-weight: bold;
+				font-size: 15px;
+				text-decoration: none !important;
+				i {
+					background-color: $main-color;
+					border-radius: 50%;
+					color: white;
+					font-size: 10px;
+					padding: 5px;
+				}
+			}
+		}
+		.panel-body {
+			color: $text-color;
+			padding: 20px;
+			font-family: 'Open Sans';
+		}
+		.stats .col-md-4 {
+			background-color: $main-color;
+			display: inline-block;
+			font-family: 'Lato';
+			width: calc(33.33333333% - 6px);
+			height: 120px;
+			margin: 3px 3px;
+			text-align: center;
+			transition-timing-function: ease-in-out;
+			transition-duration: 0.2s;
+			span {
+				display: block;
+				color: white;
+				&:first-child {
+					margin-top: 10px;
+					margin-bottom: -5px;
+					font-weight: bold;
+					font-size: 50px;
+				}
+				&:last-child {
+					text-transform: uppercase;
+				}
+			}
+			&:hover {
+				background-color: darken($main-color, 20%);
+			}
+		}
+	}
+	.line{
+		height:25px;
+		i{
+			background-color: white;
+			color:lighten($text-color,20%);
+			font-size:30px;
+			padding:20px;
+			position:relative;
+			top:-55px;
+			
+		}
+	}
+	.latest-news {
+		.col-md-12 {
+			background-color: teal;
+			color: white;
+			font-family: 'Open Sans';
+			padding: 20px 20px 10px 20px;
+			height: 150px;
+			background-size: cover;
+			background-position: center;
+			text-shadow: 1px 1px black;
+			.label {
+				background-color: $main-color;
+				border: none;
+				border-radius: 0;
+				color: white;
+				padding: 7px 15px;
+			}
+			a {
+				color: white;
+				font-family: 'Lato';
+				text-decoration: none;
+				font-weight: bold;
+			}
+			i {
+				&:last-child {
+					margin-left: 10px;
+				}
+			}
+		}
+		.news-item1 {
+			background-image: url('../images/news1.jpg');
+		}
+		.news-item2 {
+			background-image: url('../images/news2.jpg');
+		}
+		.news-item3 {
+			background-image: url('../images/news3.jpg');
+		}
+		.news-item4 {
+			background-image: url('../images/news4.jpg');
+			filter: saturate(20px);
+		}
+	}
+}
