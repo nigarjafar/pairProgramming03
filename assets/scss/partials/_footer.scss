@@ -1,3 +1,96 @@
-$main-color: #31A3DD;
-$second-color: #414547;
-$third-color: #3D4344;
+
+#footer{
+	
+	font-family: 'Open Sans', sans-serif;
+	height:auto;
+	#subscribe{
+		padding:30px 0;
+		background-color: $second-color;
+
+		h1{
+			text-transform: uppercase;
+			color:white;
+			font-size:1em;
+			font-weight:bold;
+			padding: 0;
+			padding-bottom:15px;
+			margin:0px;
+			display:inline-block;
+			border-bottom: 2px solid $main-color;
+		}
+
+		h2{
+			font-weight:bold;
+			color:white;
+			font-size:1em;
+		}
+		p{
+			color:$fourth-color*0.7;
+			margin-top:15px;
+			font-size:0.95em;
+		}
+		
+		.heading{
+			border-bottom: 1px solid $second-color*1.3;
+			margin-bottom:10px;
+		}
+
+		form{
+			margin-top:35px;
+			
+			input{
+				height:45px;
+			}
+			button{
+				height:45px;
+				width:100%;
+				color:white;
+				background-color:$main-color;
+			}
+		}
+
+		.news{
+			box-sizing:content-box;
+			height:80px;
+			margin-top:10px;
+			
+
+			&:nth-child(2){
+				padding-bottom:10px;
+				border-bottom: 1px solid $second-color*1.3; ;
+			}
+
+			img{
+				float:left;
+				padding-right:10px;
+			}
+
+			i,span{
+				font-size:0.9em;
+				color: $second-color*1.6;
+			}
+
+			i{
+				font-weight:bold;
+			}
+		}
+	}	
+
+	#copyright{
+		line-height:55px;
+		background-color: $second-color*0.8;
+		color: $second-color*1.6;
+		font-size:0.9em;
+
+		a{
+			color: $second-color*1.6;
+			text-decoration:none;
+			padding:0 9px;
+			transition: all 0.2s ease;
+
+			&:hover{
+				color:$second-color*2;
+			}
+		}
+	}	
+}
