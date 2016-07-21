@@ -1,0 +1,35 @@
+﻿#divider {
+	padding: 40px 0;
+	background-image: url("../images/demo-2.png");
+	background-repeat: repeat;
+	color: $text-color-gray;
+	h3 {
+		color: $black;
+		font-size: 27px;
+		line-height: 36px;
+		font-weight: 800;
+	}
+	span {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.element {
+		margin: 40px 0 0;
+	}
+	i {
+	    font-size: 30px;
+	}
+	p {
+		font-size: 16px;
+		line-height: 23px;
+		margin: 10px 0;
+	}
+	.name, .desc {
+		font-style: normal;
+		font-size: 13px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.name {
+		font-weight: 800;
+	}
+}
